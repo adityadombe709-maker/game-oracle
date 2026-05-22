@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 interface Message {
   userQuery: string;
@@ -9,15 +10,38 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
 
-  function handleSubmit() {
+  async function handleSubmit() {
     if (inputValue.trim() === "") return;
+    const userQuery = inputValue;
     const newMessage = {
-      userQuery: inputValue,
-      botResponse: `Bot: Your query: ${inputValue}`,
+      userQuery: userQuery,
+      botResponse: "Loading...",
     };
-
     setMessages([...messages, newMessage]);
     setInputValue("");
+
+    //send api request to backend
+    setTimeout(async () => {
+      try {
+        const response = await axios.post("http://localhost:8000/api/search", {
+          query: userQuery,
+        });
+
+        const botResponse = response.data.botResponse;
+
+        setMessages((prevMessages) => {
+          return [...prevMessages.slice(0, -1), { userQuery, botResponse }];
+        });
+      } catch (err) {
+        console.error("Error calling backend", err);
+        setMessages((prevMessages) => {
+          return [
+            ...prevMessages.slice(0, -1),
+            { userQuery, botResponse: "Server error" },
+          ];
+        });
+      }
+    }, 2000);
   }
 
   function displayMessages() {
@@ -30,6 +54,19 @@ function App() {
       );
     });
   }
+
+  useEffect(() => {
+    const checkBackend = async () => {
+      try {
+        const response = await axios.get("http://localhost:8000/api/health");
+        console.log(response.data);
+      } catch (err) {
+        console.error("Backend error: ", err);
+      }
+    };
+
+    checkBackend();
+  }, []);
 
   return (
     <>
