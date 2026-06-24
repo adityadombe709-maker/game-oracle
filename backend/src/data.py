@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     add_wiki_content (sample_docs, sample_meta)
 
-    query_str = "RPG game"
+    query_str = "gold"
 
     print(f"\nSearching for: '{query_str}'")
     results = search_gaming_knowledge (query_str)
