@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from src.data import search_gaming_knowledge
 
 app = FastAPI()
 
@@ -27,6 +28,12 @@ class QueryRequest(BaseModel):
 @app.post("/api/search")
 def search(request: QueryRequest):
     user_query = request.query
-    bot_response = f"BotBackend: Your query: {user_query}"
+    results = search_gaming_knowledge(user_query)
+    if results and results["documents"] and results["documents"][0]:
+        first_match = results["documents"][0][0]
+    else:
+        first_match = "No results found"
+
+    bot_response = f"BotBackend: {first_match}"
 
     return {"botResponse": bot_response}
