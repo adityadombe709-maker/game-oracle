@@ -41,7 +41,7 @@ function App() {
           ];
         });
       }
-    }, 2000);
+    }, 0);
   }
 
   function displayMessages() {

@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.data import search_gaming_knowledge
+from src.llm import generate_answer
 
 app = FastAPI()
 
@@ -34,6 +35,7 @@ def search(request: QueryRequest):
     else:
         first_match = "No results found"
 
-    bot_response = f"BotBackend: {first_match}"
+    answer = generate_answer(user_query, first_match)
+    bot_response = f"BotBackend: {answer}"
 
     return {"botResponse": bot_response}
