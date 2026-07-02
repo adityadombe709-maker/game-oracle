@@ -5,7 +5,7 @@ urls = [
     "https://en.wikipedia.org/wiki/Minecraft",
     "https://en.wikipedia.org/wiki/Elden_Ring",
     "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim",
-    "https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt"
+    "https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt",
 ]
 contents = []
 metas = []
@@ -16,4 +16,4 @@ for url in urls:
     except Exception as e:
         print(f"Error occurred: {e}")
 
-add_wiki_content (contents, metas)
+add_wiki_content(contents, metas)

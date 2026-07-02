@@ -1,0 +1,3 @@
+store fandom game names as embeddings in chromadb permanently
+use game names on DDG to get fandom/fextralife home pages of games
+scrape and navigate through urls to get the information looking for

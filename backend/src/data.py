@@ -1,12 +1,16 @@
 import chromadb
 import uuid
 
-client = chromadb.PersistentClient (
-    path = "./chromadb_data",
+client = chromadb.PersistentClient(
+    path="./chromadb_data",
 )
 
 collection = client.get_or_create_collection(name="gaming_wikis")
-sample_docs = ["Minecraft is a block-building survival game.", "Elden Ring is a fantasy action RPG."]
+sample_docs = [
+    "Minecraft is a block-building survival game.",
+    "Elden Ring is a fantasy action RPG.",
+]
+
 
 def add_wiki_content(docs, meta):
     ids = []
@@ -17,12 +21,14 @@ def add_wiki_content(docs, meta):
 
 
 def search_gaming_knowledge(query):
-    return collection.query(query_texts=[query], n_results = 2)
+    return collection.query(query_texts=[query], n_results=2)
 
-def print_collection ():
+
+def print_collection():
     all_data = collection.get()
     with open("html_docs.txt", "w") as file:
         file.write(str(all_data["metadatas"]))
+
 
 def delete_collection():
     client.delete_collection(name="gaming_wikis")
@@ -49,4 +55,3 @@ if __name__ == "__main__":
     # print ("\nResults: ")
     # print (results)
     print_collection()
-
