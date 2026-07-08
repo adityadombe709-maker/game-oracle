@@ -1,0 +1,525 @@
+## 
+
+## Information
+
+### Developer(s)
+
+CD PROJEKT RED
+
+### Publisher(s)
+
+POLcdp.pl  
+PALBandai Namco Games  
+CIS 1C Company  
+NA WB Games  
+JP Spike Chunsoft  
+SA Megarom Interactive
+
+### Engine
+
+REDengine with Umbra 3, PhysX and SpeedTree
+
+### Platform(s)
+
+Microsoft Windows  
+PlayStation 4  
+Xbox One  
+Nintendo Switch  
+PlayStation 5  
+Xbox Series X
+
+### Release date(s)
+
+19 May 2015  
+15 October 2019 (Nintendo Switch)  
+14 December 2022 (PlayStation 5 and Xbox Series X)[1]
+
+### Genre(s)
+
+Action RPG
+
+### Mode(s)
+
+Single-player
+
+### Rating(s)
+
+PEGI: 18  
+ESRB: M
+
+### System requirements
+
+_SeeSystem requirements section._
+
+## Website
+
+https://www.thewitcher.com/witcher3
+<------------------------------------------------------->
+ ### Rating(s)
+
+PEGI: 18  
+ESRB: M
+
+### System requirements
+
+_SeeSystem requirements section._
+
+## Website
+
+https://www.thewitcher.com/witcher3
+
+_**The Witcher 3: Wild Hunt**_ is the third installment in the series of games developed by CD PROJEKT RED featuring the witcher Geralt of Rivia. The game was originally scheduled for release in late 2014, then pushed back to 24 February 2015, and finally released on 19 May 2015.[2] During the first two weeks since release it had sold more than 4 million copies worldwide,[3] more than doubling the total sales of its predecessor, _The Witcher 2: Assassins of Kings_.[4]
+<------------------------------------------------------->
+ Unlike the previous games, _The Witcher 3_ is set in a multi-region open world, featuring over 100 hours of content.[5] Several early articles mentioned that the developers planned to have an open world similar to that of Skyrim, but 20% larger.[6][7] The developers were quick to point out that while there was much to appreciate in Bethesda's open world concept, they were also making an effort not to repeat what they perceived as the flaws in-game. As with earlier games, the consequences of Geralt's actions will impact how the narrative progresses. The game has been built using the new REDengine 3 and was designed with player feedback from fans of previous _Witcher_ games in mind.[8]
+
+For fans of the series, the online event "Killing Monsters", a weekly giveaway of wallpapers and audio files that ran from 10 June 2013 to 14 August 2013, culminated in the release of the "Killing Monsters" cinematic trailer.
+<------------------------------------------------------->
+ On 14 May 2015, CD PROJEKT RED (working with Digic Pictures) released a pre-launch short story trailer titled "A Night to Remember". 
+
+## Contents
+
+  * 1 Later releases
+  * 2 Story
+  * 3 Features
+    * 3.1 General
+    * 3.2 Open world
+    * 3.3 Living world
+    * 3.4 Combat
+    * 3.5 RPG
+    * 3.6 Visuals
+  * 4 Free downloadable content
+  * 5 Expansions
+    * 5.1 _Hearts of Stone_ expansion
+    * 5.2 _Blood and Wine_ expansion
+  * 6 System requirements
+    * 6.1 Minimum
+  * 7 Videos
+  * 8 Gallery
+  * 9 References
+
+
+
+## Later releases[]
+<------------------------------------------------------->
+ ## Later releases[]
+
+At E3 2019, a port for Nintendo Switch got announced. It was developed in collaboration with Saber Interactive and released on October 15, 2019 as a _Complete Edition_ with both expansions and 16 DLCs on a 32-GB cartridge (or as a single download, respectively).[9] On January 28th of 2021, CDPR announced that the base game and the expansions would be made available separately, and that the Complete Edition would eventually get phased out.[10] As of August 2025, the digital Complete Edition is still available alongside the base game and its season pass (consisting of the also separately available expansions). For the physical version, a new release with only the base game got released on November 1st, 2021, seemingly replacing the Complete Edition.[11] This new physical edition is not being mentioned on Nintendo's or CDPR's game pages.[12][13][14]
+<------------------------------------------------------->
+ On September 4, 2020, it was announced that the game and its expansions would be getting a next-generation upgrade and would be released as a standalone purchase for the next-generation consoles (Xbox Series X and PlayStation 5) as well as PC. A free update would be given out to those who already own the game on the PC, Xbox One, and PlayStation 4.[15] While it was originally expected to be released in 2021[16] it was later announced that the next-generation update had been delayed to 2022[17] before CDPR announced it'd be released on December 14, 2022.[1]
+
+On November 15, 2023, CD PROJEKT RED announced a mod editor was being created for the game to be released in 2024 and would be available for free for all owners of _The Witcher 3: Wild Hunt_ on PC.[18] In May 2024, they released a new version of REDkit for the game. 
+
+## Story[]
+
+    _For the main article, seeThe Witcher 3 storyline._
+<------------------------------------------------------->
+ ## Story[]
+
+    _For the main article, seeThe Witcher 3 storyline._
+
+The world is in chaos. The air is thick with tension and the smoke of burnt villages. The fearsome Empire of Nilfgaard has struck again, ravaging the helpless Northern Kingdoms. The once mighty who tried to use Geralt for their own gain are now gone. In these uncertain times, no one can say what fortune holds in store, who will bring peace to the world and who will cause it only misery. But a force darker and deadlier emerges. 
+
+The petty men and women commanding tin-plated armies fail to understand that their conflict is child's play compared to the Wild Hunt, the otherworldly threat which now looms. These ghastly spectral riders have for ages plagued humankind, bringing misery to the world. This time the Wild Hunt seeks one person in particular: the one individual Destiny itself bestowed upon Geralt, the one soul Geralt considers kin. 
+
+## Features[]
+
+### General[]
+<------------------------------------------------------->
+ ## Features[]
+
+### General[]
+
+  * The grand finale to Geralt's story
+  * A standalone adventure easily accessible to new players
+  * Meaningful choices with consequences that change the story and the game world
+  * Quests and main story threads that can be resolved in any order or completed in parallel
+  * Unforgettable quests deeply linked with the core storyline and designed with care to draw players in
+  * A breathtaking cinematic introduction illustrating the game background
+  * Unique atmosphere, memorable characters, and gritty dialogue
+
+
+
+### Open world[]
+
+  * A vast open world - 35 times larger than that in The Witcher 2
+  * Multiple ecosystems and cultures that players can move between at will
+  * Regions with different inspirations and deep cultural references, each with a distinct feel
+  * Free exploration unspoiled by loading times
+
+
+
+### Living world[]
+<------------------------------------------------------->
+ ### Living world[]
+
+  * A world shaped by the player's decisions, but which, left to itself, goes on living
+  * A realistic day and night cycle
+  * A dynamic weather system
+  * A living economy: The new in-game economy system varies the price of goods based on surrounding conditions or their place of origin relative to Geralt's current whereabouts in the world: the price of fish might differ depending on distance from water, and a village lying on a trade route for trappers and hunters might have many tanneries and leather workers, affecting the price of crafting components and armor.
+  * A unique, deep, consistent and expansive game world based on that described by Andrzej Sapkowski
+
+
+
+### Combat[]
+<------------------------------------------------------->
+ ### Combat[]
+
+  * Combat complexity based on a variety of actions at the player's disposal, not on correct attack sequencing
+  * A Witcher Senses system bringing new tactical depth to combat
+  * Monsters, each with their own lore, posing unique hunting challenges and responding to changes in the environment
+
+
+
+### RPG[]
+
+  * A tutorial built into the game, allowing players to dive into the world of the Witcher with ease
+  * Involving investigations and rewarding hunts through the Witcher Senses mechanic
+  * A completely rewritten RPG mechanic allowing players to see the influence of statistics on gameplay
+  * An expanded Sign casting system: each of the 5 Signs has two different modes of use, creating even more possibilities in combat and challenging players to use magic in creative ways
+  * A highly-intuitive Alchemy system
+  * An expanded character development system
+  * Advanced Crafting mechanics
+
+
+
+### Visuals[]
+<------------------------------------------------------->
+ ### Visuals[]
+
+  * Fully dynamic light and shadow effects throughout the game world, generating superior atmosphere and ambiance
+  * Detailed, realistic locations through a significant increase in polygon numbers
+  * A deep role-playing experience through visually attractive, film-like presentation
+
+
+
+The World of the Witcher
+
+Explore the many kingdoms and cities in the world of The Witcher. Familiarize yourself with the Geography facing The White Wolf as he continues his quest to destroy the Wild Hunt. Use the maps developed by our community to help navigate the open world environment.
+
+Skellige Isles
+
+Novigrad
+
+Velen
+
+The Witcher 3 Starter Guides
+
+Discover the skills and strategies needed to survive in _**The Witcher 3: Wild Hunt**_ by reading our community guides on combat, alchemy, monster hunting, and witcher signs. Learn all about witcher skills, combat tactics, the strengths and weaknesses of deadly monsters, and how to craft the perfect concoctions.
+
+Guide to Alchemy
+<------------------------------------------------------->
+ Guide to Alchemy   
+  
+
+
+Guide to Monster Hunting   
+  
+
+
+Secondary Quests
+
+Guide to Combat   
+  
+
+
+Guide to Witcher Signs   
+  
+
+
+Contracts   
+  
+
+
+Guide to Romance
+
+Guide to Character Progression   
+  
+
+
+Main Quests   
+  
+
+
+Scavenger Hunts
+
+  
+
+
+## Free downloadable content[]
+
+    _As CD PROJEKT RED, we strongly believe this is not the way it should work and, with The Witcher 3: Wild Hunt​​​, we have decided to do it differently. Cutting to the chase, everyone who buys Wild Hunt will receive 16 specially prepared DLCs absolutely for free, regardless of platform. You don't have to preorder, you don't have to buy any special edition to get them — if you own a copy of Wild Hunt, they're yours. This is our way of saying thank you for buying our game._[19]
+
+## Expansions[]
+<------------------------------------------------------->
+ ## Expansions[]
+
+On April 7, 2015, CD PROJEKT RED announced two major expansions for _**The Witcher 3: Wild Hunt**_ , entitled _Hearts of Stone_ and _Blood and Wine_.[20] CD PROJEKT RED said that both expansion packs included new enemies, characters, and gear. Players would also be reunited with some "dearly missed" characters from the series. _Hearts of Stone_ was released on October 13, 2015, and _Blood and Wine_ on May 31, 2016, both are available on all three major platforms. Players can purchase both expansions at once by getting the Expansion Pass, now on sale through several retailers. 
+
+On August 30, 2016, a Game of the Year edition (for PC) and Complete edition (for consoles) was released, containing the base game, both expansions, and all downloadable content. 
+
+On May 27, 2026, CD PROJEKT RED announced it was working with Fool's Theory on a third expansion, _Songs of the Past_. It's expected to launch sometime in 2027 for PlayStation 5, Xbox Series X|S, and PC.[21]
+<------------------------------------------------------->
+ ### _Hearts of Stone_ expansion[]
+
+    _**Hearts of Stone** is a major expansion that adds over ten hours of additional content. Geralt will adventure into the wilds of No Man's Land and the nooks and alleys of Oxenfurt, where he will try to complete a contract from the mysterious Man of Glass. Caught in a thick tangle of deceit, Geralt will need all his cunning and strength to solve the mystery and emerge unscathed._
+
+### _Blood and Wine_ expansion[]
+
+    _**Blood and Wine** is a major expansion that adds over twenty hours of additional content. A tale that will introduce the all-new in-game region of Toussaint, Blood and Wine will take Geralt to a land untainted by war, where an atmosphere of carefree indulgence and knightly ritual masks an ancient and bloody secret._
+
+## System requirements[]
+
+Due to upcoming changes announced in May 2026 for the game, system requirements have changed:[22]
+
+### Minimum[]
+<------------------------------------------------------->
+ ## System requirements[]
+
+Due to upcoming changes announced in May 2026 for the game, system requirements have changed:[22]
+
+### Minimum[]
+
+  * CPU: AMD Ryzen 5 2600, Intel Core i5-8400
+  * GPU: NVIDIA GeForce GTX 1660, AMD Radeon RX 5500 XT 8GB
+  * VRAM: 6 GB
+  * RAM: 12 GB
+  * Storage: 70 GB SSD
+  * OS: 64-bit Windows 11
+
+
+
+_Important:_ The information hidden here is no longer accurate and only kept for historical purposes 
+
+Recommended (Old requirements)
+
+  * Intel CPU Core i7 3770 3.4 GHz / AMD CPU AMD FX-8350 4 GHz
+  * Nvidia GPU GeForce GTX 770 / AMD GPU Radeon R9 290
+  * RAM 8GB
+  * OS 64-bit Windows 7 or 64-bit Windows 8 (8.1)
+  * DirectX 11
+  * HDD Space 40 GB
+
+
+
+Minimum (Old requirements)
+
+  * Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940
+  * Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870
+  * RAM 6GB
+  * OS 64-bit Windows 7 or 64-bit Windows 8 (8.1)
+  * DirectX 11
+  * HDD Space 40 GB
+
+
+
+## Videos[]
+
+The Witcher 3 Wild Hunt - The Sword Of Destiny Trailer
+<------------------------------------------------------->
+ ## Videos[]
+
+The Witcher 3 Wild Hunt - The Sword Of Destiny Trailer
+
+The Witcher 3 Wild Hunt - title reveal
+
+The Witcher 3 Teaser - Nilfgaard Invades 1080p
+
+The Witcher 3 Wild Hunt - Debut Gameplay Trailer
+
+The Witcher 3 Wild Hunt - The Beginning
+
+The Witcher 3 Wild Hunt - Killing Monsters Cinematic Trailer
+
+The Witcher 3 Wild Hunt - VGX Trailer
+
+The Witcher 3- Wild Hunt "The Trail" Opening Cinematic
+
+The Witcher 3 Wild Hunt - Elder Blood Trailer
+
+The Witcher 3- Wild Hunt — 10th Anniversary Trailer
+
+## Gallery[]
+
+## References[]
+<------------------------------------------------------->
+ 1. ↑ 1.0 1.1 The Witcher 3: Wild Hunt gets a FREE next-gen update on December 14th!
+  2. ↑ The Witcher 3: Wild Hunt - An Open Letter, 8 Dec 2014
+  3. ↑ Open Letter from Marcin Iwiński - co-founder of CD PROJEKT RED, 9 June 2015
+  4. ↑ The Witcher 2 sells 1.7 million, 30 May 2012
+  5. ↑ More Witcher 3 details emerge: over 100 hours of content, jumping, boats, and more, archived from the original on 20 Feb 2015
+  6. ↑ The Witcher 3: Wild Hunt announced for 2014, 5 Feb 2013
+  7. ↑ The Witcher 3 Will Not Be 'Generic' Like Skyrim, archived from the original on 20 Feb 2013
+  8. ↑ Designing The Witcher 3: Wild Hunt, 8 Feb 2013
+  9. ↑ NintendoLife.com: "The Witcher 3: Wild Hunt - Light Edition For Switch Surfaces Via German Retailer", 2020-09-12
+  10. ↑ TheWitcher.com: "Base Game and Expansions available separately on Nintendo Switch!", 2021-02-04
+  11. ↑ Amazon.com: "Witcher 3: Wild Hunt - Base Game (Nintendo Switch)"
+  12. ↑ Nintendo.com: "The Witcher 3: Wild Hunt – Complete Edition"
+<------------------------------------------------------->
+ 11. ↑ Amazon.com: "Witcher 3: Wild Hunt - Base Game (Nintendo Switch)"
+  12. ↑ Nintendo.com: "The Witcher 3: Wild Hunt – Complete Edition"
+  13. ↑ Nintendo.com: "The Witcher 3: Wild Hunt"
+  14. ↑ TheWitcher.com: Page with Amazon links to the Switch (Complete) edition
+  15. ↑ The Witcher 3: Wild Hunt is coming to the next generation!
+  16. ↑ Marcin Momot: "It's coming in 2021."
+  17. ↑ Next-gen update has been delayed to 2022."
+  18. ↑ We're working on an editor for The Witcher 3: Wild Hunt!
+  19. ↑ The Witcher 3: Wild Hunt — 16 free DLCs for everyone!
+  20. ↑ Hearts of Stone & Blood and Wine - two massive expansions for The Witcher 3: Wild Hunt, 7 Apr 2015
+  21. ↑ The Witcher 3: Wild Hunt – Songs of the Past Announced
+  22. ↑ Upcoming changes to minimum requirements for The Witcher 3: Wild Hunt
+<------------------------------------------------------->
+ _The Witcher_ series by Andrzej Sapkowski  
+---  
+Literature| | Saga| 
+
+  * _Blood of Elves_
+  * _Time of Contempt_
+  * _Baptism of Fire_
+  * _The Tower of the Swallow_
+  * _The Lady of the Lake_
+
+  
+---|---  
+Short stories| 
+
+  * _Wiedźmin_ (obsolete)
+  * _The Last Wish_
+  * _Sword of Destiny_
+  * _Something Ends, Something Begins_
+
+  
+Prequels| 
+
+  * _Season of Storms_
+  * _Crossroads of Ravens_
+
+  
+Comics|
+<------------------------------------------------------->
+ Prequels| 
+
+  * _Season of Storms_
+  * _Crossroads of Ravens_
+
+  
+Comics| 
+
+  * _Droga bez powrotu_
+  * _Geralt_ comic
+  * _Mniejsze zło_
+  * _Ostatnie życzenie_
+  * _Granica możliwości_
+  * _Zdrada_
+  * _Reasons of State_
+  * _House of Glass_
+  * _Fox Children_
+  * _Killing Monsters_
+  * _Matters of Conscience_
+  * _Curse of Crows_
+  * _Skellige's Most Wanted_
+  * _Uncivil War_
+  * _Roach Revealed_
+  * _Where is Iorveth?_
+  * _The Witcher Library Edition_
+  * _Of Flesh and Flame_
+  * _Fading Memories_
+  * _Witch's Lament_
+  * _Ronin_
+  * _A Grain of Truth_
+  * _The Witcher Library Edition Volume 2_
+  * _The Ballad of Two Wolves_
+  * _Frog Kiss_
+  * _Wild Animals_
+  * _The Lesser Evil_
+  * _Corvo Bianco_
+  * _The Edge of the World_
+  * _The Bear and the Butterfly_
+  * _A Question of Price_
+  * _The Witcher Library Edition Volume 3_
+  * _The Witcher_
+  * _Blood Stone_
+
+  
+Misc.|
+<------------------------------------------------------->
+ Misc.| 
+
+  * _Sapkowski's Alphabet_
+  * _Dynastic descriptions_
+  * _Tales from the world of The Witcher_
+  * _Claws and Fangs_
+  * _The World of the Witcher_
+  * _A Fractured Land: Tales of the Northern Realms_
+
+  
+  
+Games| | Main series| 
+
+  * _The Witcher_
+    * _The Price of Neutrality_
+    * _Side Effects_
+  * _The Witcher 2: Assassins of Kings_
+  * _**The Witcher 3: Wild Hunt**_
+    * _Hearts of Stone_ expansion
+    * _Blood and Wine_ expansion
+    * _Songs of the Past_ expansion
+  * _The Witcher 4_
+
+  
+---|---  
+Misc.| 
+
+  * _Gwent: The Witcher Card Game_
+  * _GWENT: Rogue Mage_
+  * _Thronebreaker: The Witcher Tales_
+  * _The Witcher Adventure Game_
+  * _The Witcher Role-Playing Game_
+  * _Wiedźmin: Gra Wyobraźni_
+  * _Wiedźmin: Przygodowa Gra Karciana_
+  * _The Witcher: Old World_
+
+  
+Canceled / Defunct|
+<------------------------------------------------------->
+ Canceled / Defunct| 
+
+  * Modules 
+    * _The Witcher: Scars of Betrayal_
+    * _The Witcher: Outcast_
+  * _The Witcher Battle Arena_
+  * _The Witcher: Crimson Trail_
+  * _The Witcher: Rise of the White Wolf_
+  * _The Witcher: Monster Slayer_
+  * _The Witcher: Versus_
+
+  
+  
+Misc.| | TV / Film| 
+
+  * _The Hexer_ (TV series)
+  * _The Hexer_ (film)
+  * _The Witcher_ (TV series)
+  * _The Witcher_ (film)
+  * _The Witcher: Nightmare of the Wolf_
+  * _The Witcher: Blood Origin_
+  * _The Witcher: Sirens of the Deep_
+  * _The Rats: A Witcher Tale_
+
+  
+---|---  
+Artbooks| 
+
+  * _The Art of the Witcher: Gwent Gallery Collection_
+  * _The Witcher Artbook_
+  * _The Witcher 2: Assassins of Kings Artbook_
+  * _The Witcher 3: Wild Hunt Artbook_
+
+  
+Music| 
+
+  * The Witcher soundtrack
+  * Inspired by The Witcher
+  * The Witcher 2 soundtrack
+  * The Witcher 3 soundtrack
+  * The Hexer soundtrack
+  * Netflix's The Witcher soundtrack

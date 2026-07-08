@@ -1,4 +1,5 @@
-for chunk in texts:
-        if chunk == "\n":
-            continue
-        text += chunk
+for link in links:
+        #     link = (
+        #         "https://witcher.fandom.com/api.php?action=parse&format=json&page="
+        #         + link
+        #     )
