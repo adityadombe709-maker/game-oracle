@@ -1,4 +1,11 @@
 from ollama import chat
+from pydantic import BaseModel
+
+
+class Obj(BaseModel):
+    status: str
+    answer: str | None = None
+    url: str | None = None
 
 
 def generate_answer(query: str, context: str) -> str:
@@ -34,13 +41,45 @@ def generate_answer(query: str, context: str) -> str:
     return full_response
 
 
+def generate_exploration_decision(
+    query: str, page_content: str, links_list: str
+) -> dict:
+    messages = [
+        {
+            "role": "system",
+            "content": "You are GameOracle, a factual gaming search assistant.",
+        },
+        {
+            "role": "user",
+            "content": (
+                f"Page Content:\n{page_content}\n\n"
+                f"Available Links:\n{links_list}\n\n"
+                f"Question:\n{query}\n\n"
+                f"Instructions: Answer the question using ONLY the context provided above. "
+                f"If you have the answer, set the status as 'ANSWER' and the 'answer' field with your response. "
+                f"Otherwise, set the status as 'EXPLORE' and the 'url' field with the target link."
+            ),
+        },
+    ]
+
+    output = chat(
+        model="llama3.2:latest",
+        messages=messages,
+        options={"temperature": 0},
+        format=Obj.model_json_schema(),
+    )
+
+    response = output["message"]["content"]
+    return Obj.model_validate_json(response).model_dump()
+
+
 if __name__ == "__main__":
-    test_query = "who is the antagonist of the game gta vice city?"
-    test_context = "Grand Theft Auto: Vice City follows gangster Tommy Vercetti's rise to power after being released from prison."
+    with open("backend/html_docs.txt", "r") as file:
+        page_content = file.read()
+    with open("backend/links.txt", "r") as file:
+        links = file.read()
 
-    print("Generating answer from ollama...")
-    answer = generate_answer(test_query, test_context)
-
-    print("\n--- Generated Answer ---")
+    answer = generate_exploration_decision(
+        "who is the main protagonist of the game?", page_content, links
+    )
     print(answer)
-    print("----------------")

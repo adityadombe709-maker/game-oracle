@@ -1,3 +1,7 @@
+import os
+
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 import chromadb
 import uuid
 
@@ -5,19 +9,19 @@ client = chromadb.PersistentClient(
     path="./chromadb_data",
 )
 
-collection = client.get_or_create_collection(name="gaming_wikis")
-sample_docs = [
-    "Minecraft is a block-building survival game.",
-    "Elden Ring is a fantasy action RPG.",
-]
+# collection = client.get_or_create_collection(name="gaming_wikis")
+# sample_docs = [
+#     "Minecraft is a block-building survival game.",
+#     "Elden Ring is a fantasy action RPG.",
+# ]
 
 
-def add_wiki_content(docs, meta):
-    ids = []
-    for _ in docs:
-        ids.append(str(uuid.uuid4()))
+def add_wiki_content(name, docs, meta):
 
-    collection.add(ids=ids, documents=docs, metadatas=meta)
+    collection = client.get_or_create_collection(name=name)
+    ids = collection.id
+    documents = collection.doc
+    collection.add(ids=str(uuid.uuid4()), documents=docs, metadatas=meta)
 
 
 def search_gaming_knowledge(query):
@@ -26,7 +30,7 @@ def search_gaming_knowledge(query):
 
 def print_collection():
     all_data = collection.get()
-    with open("html_docs.txt", "w") as file:
+    with open("backend/collection_docs.txt", "w") as file:
         file.write(str(all_data["metadatas"]))
 
 
