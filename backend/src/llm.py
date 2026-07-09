@@ -1,11 +1,4 @@
 from ollama import chat
-from pydantic import BaseModel
-
-
-class Obj(BaseModel):
-    status: str
-    answer: str | None = None
-    url: str | None = None
 
 
 def generate_answer(query: str, context: str) -> str:
@@ -30,7 +23,7 @@ def generate_answer(query: str, context: str) -> str:
         model="llama3.2:latest",
         messages=messages,
         stream=True,
-        options={"temperature": 0.0},
+        options={"temperature": 0.6},
     )
 
     full_response = ""
@@ -39,38 +32,6 @@ def generate_answer(query: str, context: str) -> str:
         full_response += text
 
     return full_response
-
-
-def generate_exploration_decision(
-    query: str, page_content: str, links_list: str
-) -> dict:
-    messages = [
-        {
-            "role": "system",
-            "content": "You are GameOracle, a factual gaming search assistant.",
-        },
-        {
-            "role": "user",
-            "content": (
-                f"Page Content:\n{page_content}\n\n"
-                f"Available Links:\n{links_list}\n\n"
-                f"Question:\n{query}\n\n"
-                f"Instructions: Answer the question using ONLY the context provided above. "
-                f"If you have the answer, set the status as 'ANSWER' and the 'answer' field with your response. "
-                f"Otherwise, set the status as 'EXPLORE' and the 'url' field with the target link."
-            ),
-        },
-    ]
-
-    output = chat(
-        model="llama3.2:latest",
-        messages=messages,
-        options={"temperature": 0},
-        format=Obj.model_json_schema(),
-    )
-
-    response = output["message"]["content"]
-    return Obj.model_validate_json(response).model_dump()
 
 
 if __name__ == "__main__":

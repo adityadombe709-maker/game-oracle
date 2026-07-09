@@ -1,5 +1,2 @@
-for link in links:
-        #     link = (
-        #         "https://witcher.fandom.com/api.php?action=parse&format=json&page="
-        #         + link
-        #     )
+with open("backend/temp_texts/query-search.txt", "w") as file:
+    #     file.write(search_gaming_knowledge(query, collection)["documents"])

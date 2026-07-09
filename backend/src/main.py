@@ -29,13 +29,12 @@ class QueryRequest(BaseModel):
 @app.post("/api/search")
 def search(request: QueryRequest):
     user_query = request.query
-    results = search_gaming_knowledge(user_query)
+    results = search_gaming_knowledge(user_query, "witcher3")
     if results and results["documents"] and results["documents"][0]:
-        first_match = results["documents"][0][0]
+        context = "\n\n".join(results["documents"][0])
     else:
         first_match = "No results found"
 
-    answer = generate_answer(user_query, first_match)
+    answer = generate_answer(user_query, context)
     bot_response = f"BotBackend: {answer}"
-
     return {"botResponse": bot_response}

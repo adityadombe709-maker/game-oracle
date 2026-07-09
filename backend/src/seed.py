@@ -2,6 +2,7 @@ from data import add_wiki_content
 from scraper import scrape_wiki_page, scrape_fandom
 from collections import deque
 import time
+import pickle
 
 url_witcher = "https://witcher.fandom.com/api.php?action=parse&format=json&page=The_Witcher_3:_Wild_Hunt"
 
@@ -42,8 +43,11 @@ def seed_game(url: str):
 if __name__ == "__main__":
     try:
         seed_game(url_witcher)
+        with open("backend/temp_texts/witcher_chunks_pickled.txt", "wb") as file:
+            pickle.dump(chunks, file)
+
         chunks_refined = "\n\n".join(chunks)
-        with open("backend/witcher_chunks.txt", "w") as file:
+        with open("temp_texts/witcher_chunks.txt", "w") as file:
             file.write(chunks_refined)
         print("\n".join(links_popped))
 

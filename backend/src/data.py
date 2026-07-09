@@ -1,4 +1,5 @@
 import os
+import pickle
 
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
@@ -16,21 +17,24 @@ client = chromadb.PersistentClient(
 # ]
 
 
-def add_wiki_content(name, docs, meta):
-
+def add_wiki_content(name, chunks, parent_url):
+    size = len(chunks)
+    metadatas = [{"source": parent_url}] * size
     collection = client.get_or_create_collection(name=name)
-    ids = collection.id
-    documents = collection.doc
-    collection.add(ids=str(uuid.uuid4()), documents=docs, metadatas=meta)
+    ids = []
+    for id in range(0, size):
+        ids.append(str(uuid.uuid4()))
+    collection.add(ids=ids, metadatas=metadatas, documents=chunks)
 
 
-def search_gaming_knowledge(query):
-    return collection.query(query_texts=[query], n_results=2)
+def search_gaming_knowledge(query, collection_name):
+    collection = client.get_collection(name=collection_name)
+    return collection.query(query_texts=[query], n_results=50)
 
 
 def print_collection():
     all_data = collection.get()
-    with open("backend/collection_docs.txt", "w") as file:
+    with open("backend/temp_texts/collection_docs.txt", "w") as file:
         file.write(str(all_data["metadatas"]))
 
 
@@ -39,23 +43,11 @@ def delete_collection():
 
 
 if __name__ == "__main__":
-
-    # sample_docs = ["Minecraft is a block-building survival game.", "Elden Ring is a fantasy action RPG."]
-
-    # sample_meta = [
-    #     {"source": "test_minecraft"},
-    #     {"source": "test_elden_ring"}
-    # ]
-
-    # print ("Adding sample content to chromaDB...")
-
-    # add_wiki_content (sample_docs, sample_meta)
-
-    # query_str = "gold"
-
-    # print(f"\nSearching for: '{query_str}'")
-    # results = search_gaming_knowledge (query_str)
-
-    # print ("\nResults: ")
-    # print (results)
-    print_collection()
+    # with open("temp_texts/witcher_chunks_pickled.txt", "rb") as file:
+    #     chunks = pickle.load(file)
+    # name = "witcher3"
+    # parent_url = "witcher.fandom.com"
+    # add_wiki_content("witcher3", chunks, "witcher.fandom.com")
+    query = "what is tor'haerne?"
+    ans = search_gaming_knowledge(query, "witcher3")["documents"]
+    print(ans)
