@@ -29,7 +29,7 @@ class QueryRequest(BaseModel):
 @app.post("/api/search")
 def search(request: QueryRequest):
     user_query = request.query
-    results = search_gaming_knowledge(user_query, "witcher3")
+    results = search_gaming_knowledge(user_query, "sekiro")
     if results and results["documents"] and results["documents"][0]:
         context = "\n\n".join(results["documents"][0])
     else:

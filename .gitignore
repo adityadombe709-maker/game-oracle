@@ -6,3 +6,5 @@ node_modules/
 .DS_Store
 *.log
 chromadb_data/
+.agents/hooks.json
+.cursor/hooks.json

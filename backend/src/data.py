@@ -48,6 +48,6 @@ if __name__ == "__main__":
     # name = "witcher3"
     # parent_url = "witcher.fandom.com"
     # add_wiki_content("witcher3", chunks, "witcher.fandom.com")
-    query = "what is tor'haerne?"
-    ans = search_gaming_knowledge(query, "witcher3")["documents"]
+    query = "what is the relationship between genichiro and isshin ashina?"
+    ans = search_gaming_knowledge(query, "sekiro")["documents"]
     print(ans)

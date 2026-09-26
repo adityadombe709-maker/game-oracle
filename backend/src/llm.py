@@ -35,7 +35,7 @@ def generate_answer(query: str, context: str) -> str:
 
 
 if __name__ == "__main__":
-    with open("backend/html_docs.txt", "r") as file:
+    with open("backend/temp_texts/html_docs.txt", "r") as file:
         page_content = file.read()
     with open("backend/links.txt", "r") as file:
         links = file.read()
